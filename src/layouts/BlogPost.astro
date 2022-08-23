@@ -6,6 +6,7 @@ import Footer from "../components/Footer.astro";
 export interface Props {
 	content: {
 		title: string;
+		author: string;
 		description: string;
 		pubDate?: string;
 		updatedDate?: string;
@@ -14,7 +15,7 @@ export interface Props {
 }
 
 const {
-	content: { title, description, pubDate, updatedDate, heroImage },
+	content: { title, author, description, pubDate, updatedDate, heroImage },
 } = Astro.props as Props;
 ---
 
@@ -22,13 +23,57 @@ const {
 	<head>
 		<BaseHead title={title} description={description} />
 		<style>
+			main {
+				max-width: 54.5rem;
+				margin: 0 auto;
+				padding: 0 1rem;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			article {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin-top: -4rem;
+			}
+
 			.title {
+				margin-top: 2.5rem;
 				font-size: 2em;
-				margin: 0.25em 0 0;
+				text-align: center;
 			}
 			hr {
 				border-top: 1px solid #ddd;
 				margin: 1rem 0;
+			}
+
+			img {
+				width: 100%;
+				border-radius: 8px;
+			}
+
+			.author {
+				margin-top: 0.8rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 0.5rem;
+				color: #eee;
+			}
+
+			.circle {
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				background-color: #eee;
+			}
+
+			.content {
+				width: 100%;
+				margin-top: 4rem;
+				color: #eee;
 			}
 		</style>
 	</head>
@@ -37,22 +82,18 @@ const {
 		<Header forPost />
 		<main>
 			<article>
-				{
-					heroImage && (
-						<img width={720} height={360} src={heroImage} alt="" />
-					)
-				}
+				{heroImage && <img src={heroImage} alt="" />}
 				<h1 class="title">{title}</h1>
-				{pubDate && <time>{pubDate}</time>}
-				{
-					updatedDate && (
-						<div>
-							Last updated on <time>{updatedDate}</time>
-						</div>
-					)
-				}
-				<hr />
-				<slot />
+
+				<div class="author">
+					{author && <p>by {author}</p>}
+					<div class="circle"></div>
+					{pubDate && <time>{pubDate}</time>}
+				</div>
+
+				<div class="content">
+					<slot />
+				</div>
 			</article>
 		</main>
 		<Footer />
