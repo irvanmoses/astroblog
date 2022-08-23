@@ -1,7 +1,7 @@
 import * as adapter from '@astrojs/netlify/netlify-functions.js';
 import { escape } from 'html-escaper';
 /* empty css                           *//* empty css                        */import rss from '@astrojs/rss';
-/* empty css                           *//* empty css                       */import 'mime';
+/* empty css                           */import 'mime';
 import 'kleur/colors';
 import 'string-width';
 import 'path-browserify';
@@ -1225,10 +1225,10 @@ var server_default = {
   renderToStaticMarkup
 };
 
-const $$metadata$5 = createMetadata("/@fs/D:/astroblog/src/components/BaseHead.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$6 = createAstro("/@fs/D:/astroblog/src/components/BaseHead.astro", "https://example.com/", "file:///D:/astroblog/");
+const $$metadata$4 = createMetadata("/@fs/D:/astroblog/src/components/BaseHead.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$5 = createAstro("/@fs/D:/astroblog/src/components/BaseHead.astro", "https://example.com/", "file:///D:/astroblog/");
 const $$BaseHead = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
   Astro2.self = $$BaseHead;
   const { title, description, image = "/placeholder-social.jpg" } = Astro2.props;
   return renderTemplate`<!-- Global Metadata --><meta charset="utf-8">
@@ -1257,21 +1257,21 @@ const $$BaseHead = createComponent(async ($$result, $$props, $$slots) => {
 `;
 });
 
-const $$file$5 = "D:/astroblog/src/components/BaseHead.astro";
-const $$url$5 = undefined;
+const $$file$4 = "D:/astroblog/src/components/BaseHead.astro";
+const $$url$4 = undefined;
 
 const $$module1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$5,
+  $$metadata: $$metadata$4,
   default: $$BaseHead,
-  file: $$file$5,
-  url: $$url$5
+  file: $$file$4,
+  url: $$url$4
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata$4 = createMetadata("/@fs/D:/astroblog/src/components/Header.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$5 = createAstro("/@fs/D:/astroblog/src/components/Header.astro", "https://example.com/", "file:///D:/astroblog/");
+const $$metadata$3 = createMetadata("/@fs/D:/astroblog/src/components/Header.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$4 = createAstro("/@fs/D:/astroblog/src/components/Header.astro", "https://example.com/", "file:///D:/astroblog/");
 const $$Header = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
   Astro2.self = $$Header;
   const { forPost } = Astro2.props;
   const STYLES = [];
@@ -1289,21 +1289,21 @@ const $$Header = createComponent(async ($$result, $$props, $$slots) => {
 `;
 });
 
-const $$file$4 = "D:/astroblog/src/components/Header.astro";
-const $$url$4 = undefined;
+const $$file$3 = "D:/astroblog/src/components/Header.astro";
+const $$url$3 = undefined;
 
 const $$module2 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$4,
+  $$metadata: $$metadata$3,
   default: $$Header,
-  file: $$file$4,
-  url: $$url$4
+  file: $$file$3,
+  url: $$url$3
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata$3 = createMetadata("/@fs/D:/astroblog/src/components/Footer.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$4 = createAstro("/@fs/D:/astroblog/src/components/Footer.astro", "https://example.com/", "file:///D:/astroblog/");
+const $$metadata$2 = createMetadata("/@fs/D:/astroblog/src/components/Footer.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$3 = createAstro("/@fs/D:/astroblog/src/components/Footer.astro", "https://example.com/", "file:///D:/astroblog/");
 const $$Footer = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$Footer;
   const today = new Date();
   const STYLES = [];
@@ -1315,15 +1315,15 @@ const $$Footer = createComponent(async ($$result, $$props, $$slots) => {
 `;
 });
 
-const $$file$3 = "D:/astroblog/src/components/Footer.astro";
-const $$url$3 = undefined;
+const $$file$2 = "D:/astroblog/src/components/Footer.astro";
+const $$url$2 = undefined;
 
 const $$module3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$3,
+  $$metadata: $$metadata$2,
   default: $$Footer,
-  file: $$file$3,
-  url: $$url$3
+  file: $$file$2,
+  url: $$url$2
 }, Symbol.toStringTag, { value: 'Module' }));
 
 const SITE_TITLE = "Astroblog";
@@ -1335,13 +1335,13 @@ const $$module4 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty(
   SITE_DESCRIPTION
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata$2 = createMetadata("/@fs/D:/astroblog/src/components/Article.astro", { modules: [{ module: $$module1, specifier: "../components/BaseHead.astro", assert: {} }, { module: $$module2, specifier: "../components/Header.astro", assert: {} }, { module: $$module3, specifier: "../components/Footer.astro", assert: {} }, { module: $$module4, specifier: "../config", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$3 = createAstro("/@fs/D:/astroblog/src/components/Article.astro", "https://example.com/", "file:///D:/astroblog/");
+const $$metadata$1 = createMetadata("/@fs/D:/astroblog/src/components/Article.astro", { modules: [{ module: $$module1, specifier: "../components/BaseHead.astro", assert: {} }, { module: $$module2, specifier: "../components/Header.astro", assert: {} }, { module: $$module3, specifier: "../components/Footer.astro", assert: {} }, { module: $$module4, specifier: "../config", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$2 = createAstro("/@fs/D:/astroblog/src/components/Article.astro", "https://example.com/", "file:///D:/astroblog/");
 const $$Article = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Article;
   const posts = (await Astro2.glob(
-      /* #__PURE__ */ Object.assign({"../pages/blog/clone-twitter-using-react-and-tailwind.md": () => Promise.resolve().then(() => _page3),"../pages/blog/design-system-tutorial-with-figma.md": () => Promise.resolve().then(() => _page4),"../pages/blog/uber-design-full-course-asmr.md": () => Promise.resolve().then(() => _page5)}),
+      /* #__PURE__ */ Object.assign({"../pages/blog/clone-twitter-using-react-and-tailwind.md": () => Promise.resolve().then(() => _page2),"../pages/blog/design-system-tutorial-with-figma.md": () => Promise.resolve().then(() => _page3),"../pages/blog/uber-design-full-course-asmr.md": () => Promise.resolve().then(() => _page4)}),
       () => "../pages/blog/*.{md,mdx}"
   )).sort(
     (a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
@@ -1386,21 +1386,21 @@ const $$Article = createComponent(async ($$result, $$props, $$slots) => {
 </html>`;
 });
 
-const $$file$2 = "D:/astroblog/src/components/Article.astro";
-const $$url$2 = undefined;
+const $$file$1 = "D:/astroblog/src/components/Article.astro";
+const $$url$1 = undefined;
 
 const $$module5 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$2,
+  $$metadata: $$metadata$1,
   default: $$Article,
-  file: $$file$2,
-  url: $$url$2
+  file: $$file$1,
+  url: $$url$1
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata$1 = createMetadata("/@fs/D:/astroblog/src/pages/index.astro", { modules: [{ module: $$module1, specifier: "../components/BaseHead.astro", assert: {} }, { module: $$module2, specifier: "../components/Header.astro", assert: {} }, { module: $$module3, specifier: "../components/Footer.astro", assert: {} }, { module: $$module4, specifier: "../config", assert: {} }, { module: $$module5, specifier: "../components/Article.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$2 = createAstro("/@fs/D:/astroblog/src/pages/index.astro", "https://example.com/", "file:///D:/astroblog/");
+const $$metadata = createMetadata("/@fs/D:/astroblog/src/pages/index.astro", { modules: [{ module: $$module1, specifier: "../components/BaseHead.astro", assert: {} }, { module: $$module2, specifier: "../components/Header.astro", assert: {} }, { module: $$module3, specifier: "../components/Footer.astro", assert: {} }, { module: $$module4, specifier: "../config", assert: {} }, { module: $$module5, specifier: "../components/Article.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+const $$Astro$1 = createAstro("/@fs/D:/astroblog/src/pages/index.astro", "https://example.com/", "file:///D:/astroblog/");
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Index;
   return renderTemplate`<html lang="en-us">
 	<head>
@@ -1413,15 +1413,15 @@ const $$Index = createComponent(async ($$result, $$props, $$slots) => {
 	</body></html>`;
 });
 
-const $$file$1 = "D:/astroblog/src/pages/index.astro";
-const $$url$1 = "";
+const $$file = "D:/astroblog/src/pages/index.astro";
+const $$url = "";
 
 const _page0 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  $$metadata: $$metadata$1,
+  $$metadata,
   default: $$Index,
-  file: $$file$1,
-  url: $$url$1
+  file: $$file,
+  url: $$url
 }, Symbol.toStringTag, { value: 'Module' }));
 
 const get = () =>
@@ -1429,7 +1429,7 @@ const get = () =>
 		title: SITE_TITLE,
 		description: SITE_DESCRIPTION,
 		site: 'https://example.com/',
-		items: /* #__PURE__ */ Object.assign({"./blog/clone-twitter-using-react-and-tailwind.md": () => Promise.resolve().then(() => _page3),"./blog/design-system-tutorial-with-figma.md": () => Promise.resolve().then(() => _page4),"./blog/uber-design-full-course-asmr.md": () => Promise.resolve().then(() => _page5)}),
+		items: /* #__PURE__ */ Object.assign({"./blog/clone-twitter-using-react-and-tailwind.md": () => Promise.resolve().then(() => _page2),"./blog/design-system-tutorial-with-figma.md": () => Promise.resolve().then(() => _page3),"./blog/uber-design-full-course-asmr.md": () => Promise.resolve().then(() => _page4)}),
 	});
 
 const _page1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
@@ -1438,116 +1438,57 @@ const _page1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 }, Symbol.toStringTag, { value: 'Module' }));
 
 createMetadata("/@fs/D:/astroblog/src/layouts/BlogPost.astro", { modules: [{ module: $$module1, specifier: "../components/BaseHead.astro", assert: {} }, { module: $$module2, specifier: "../components/Header.astro", assert: {} }, { module: $$module3, specifier: "../components/Footer.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro$1 = createAstro("/@fs/D:/astroblog/src/layouts/BlogPost.astro", "https://example.com/", "file:///D:/astroblog/");
+const $$Astro = createAstro("/@fs/D:/astroblog/src/layouts/BlogPost.astro", "https://example.com/", "file:///D:/astroblog/");
 const $$BlogPost = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$BlogPost;
   const {
-    content: { title, description, pubDate, updatedDate, heroImage }
+    content: { title, author, description, pubDate, updatedDate, heroImage }
   } = Astro2.props;
   const STYLES = [];
   for (const STYLE of STYLES)
     $$result.styles.add(STYLE);
-  return renderTemplate`<html class="astro-ESNQSN2V">
+  return renderTemplate`<html class="astro-62CIUFSV">
 	<head>
-		${renderComponent($$result, "BaseHead", $$BaseHead, { "title": title, "description": description, "class": "astro-ESNQSN2V" })}
+		${renderComponent($$result, "BaseHead", $$BaseHead, { "title": title, "description": description, "class": "astro-62CIUFSV" })}
 		
 	${renderHead($$result)}</head>
 
-	<body class="astro-ESNQSN2V">
-		${renderComponent($$result, "Header", $$Header, { "forPost": true, "class": "astro-ESNQSN2V" })}
-		<main class="astro-ESNQSN2V">
-			<article class="astro-ESNQSN2V">
-				${heroImage && renderTemplate`<img${addAttribute(720, "width")}${addAttribute(360, "height")}${addAttribute(heroImage, "src")} alt="" class="astro-ESNQSN2V">`}
-				<h1 class="title astro-ESNQSN2V">${title}</h1>
-				${pubDate && renderTemplate`<time class="astro-ESNQSN2V">${pubDate}</time>`}
-				${updatedDate && renderTemplate`<div class="astro-ESNQSN2V">
-							Last updated on <time class="astro-ESNQSN2V">${updatedDate}</time>
-						</div>`}
-				<hr class="astro-ESNQSN2V">
-				${renderSlot($$result, $$slots["default"])}
+	<body class="astro-62CIUFSV">
+		${renderComponent($$result, "Header", $$Header, { "forPost": true, "class": "astro-62CIUFSV" })}
+		<main class="astro-62CIUFSV">
+			<article class="astro-62CIUFSV">
+				${heroImage && renderTemplate`<img${addAttribute(heroImage, "src")} alt="" class="astro-62CIUFSV">`}
+				<h1 class="title astro-62CIUFSV">${title}</h1>
+
+				<div class="author astro-62CIUFSV">
+					${author && renderTemplate`<p class="astro-62CIUFSV">by ${author}</p>`}
+					<div class="circle astro-62CIUFSV"></div>
+					${pubDate && renderTemplate`<time class="astro-62CIUFSV">${pubDate}</time>`}
+				</div>
+
+				<div class="content astro-62CIUFSV">
+					${renderSlot($$result, $$slots["default"])}
+				</div>
 			</article>
 		</main>
-		${renderComponent($$result, "Footer", $$Footer, { "class": "astro-ESNQSN2V" })}
+		${renderComponent($$result, "Footer", $$Footer, { "class": "astro-62CIUFSV" })}
 	</body></html>`;
 });
 
-const html$3 = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.</p>\n<p>Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.</p>\n<p>Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.</p>\n<p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.</p>\n<p>Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.</p>";
+const html$2 = "<p>Twitter, Inc. is an American communications company based in San Francisco, California. The company operates the microblogging and social networking service Twitter. It previously operated the Vine short video app and Periscope livestreaming service.</p>\n<p> </p>\n<p>Twitter was created by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams in March 2006 and launched in July of that year. By 2012, more than 100 million users posted 340 million tweets a day, and the service handled an average of 1.6 billion search queries per day. The company went public in November 2013. By the start of 2019, Twitter had more than 330 million monthly active users.</p>\n<p> </p>\n<p>On April 25, 2022, the Twitter board of directors agreed to a $44 billion buyout by Elon Musk, the CEO of SpaceX and Tesla, potentially making it one of the biggest deals to turn a company private. On July 8, 2022, Musk terminated the deal. As a result, Twitter shares experienced a fall and the company hired a US law firm to take legal action against Musk, launching a lawsuit against him in the Chancery Court of Delaware on July 12.</p>";
 
-				const frontmatter$3 = {"layout":"../layouts/BlogPost.astro","title":"About Me","description":"Lorem ipsum dolor sit amet","updatedDate":"August 08 2022","heroImage":"/placeholder-about.jpg"};
-				const file$3 = "D:/astroblog/src/pages/about.md";
-				const url$3 = "/about";
-				function rawContent$3() {
-					return "\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.\n\nMorbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.\n\nMollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.\n\nMattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.\n\nTempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.";
-				}
-				function compiledContent$3() {
-					return html$3;
-				}
-				function getHeadings$3() {
-					return [];
-				}
-				function getHeaders$3() {
-					console.warn('getHeaders() have been deprecated. Use getHeadings() function instead.');
-					return getHeadings$3();
-				}				async function Content$3() {
-					const { layout, ...content } = frontmatter$3;
-					content.file = file$3;
-					content.url = url$3;
-					content.astro = {};
-					Object.defineProperty(content.astro, 'headings', {
-						get() {
-							throw new Error('The "astro" property is no longer supported! To access "headings" from your layout, try using "Astro.props.headings."')
-						}
-					});
-					Object.defineProperty(content.astro, 'html', {
-						get() {
-							throw new Error('The "astro" property is no longer supported! To access "html" from your layout, try using "Astro.props.compiledContent()."')
-						}
-					});
-					Object.defineProperty(content.astro, 'source', {
-						get() {
-							throw new Error('The "astro" property is no longer supported! To access "source" from your layout, try using "Astro.props.rawContent()."')
-						}
-					});
-					const contentFragment = createVNode(Fragment, { 'set:html': html$3 });
-					return createVNode($$BlogPost, {
-									content,
-									frontmatter: content,
-									headings: getHeadings$3(),
-									rawContent: rawContent$3,
-									compiledContent: compiledContent$3,
-									'server:root': true,
-									children: contentFragment
-								});
-				}
-				Content$3[Symbol.for('astro.needsHeadRendering')] = false;
-
-const _page2 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
-  __proto__: null,
-  frontmatter: frontmatter$3,
-  file: file$3,
-  url: url$3,
-  rawContent: rawContent$3,
-  compiledContent: compiledContent$3,
-  getHeadings: getHeadings$3,
-  getHeaders: getHeaders$3,
-  Content: Content$3,
-  default: Content$3
-}, Symbol.toStringTag, { value: 'Module' }));
-
-const html$2 = "<h2 id=\"about-twitter\">About Twitter</h2>\n<p>Twitter, Inc. is an American communications company based in San Francisco, California. The company operates the microblogging and social networking service Twitter. Twitter is the world’s largest microblogging and social networking service.</p>\n<p>Twitter is a free service that allows users to post and share messages on Twitter. Twitter is a microblogging service that allows users to post and share messages on Twitter.</p>";
-
-				const frontmatter$2 = {"layout":"../../layouts/BlogPost.astro","title":"Clone Twitter using React and Tailwind","description":"Twitter, Inc. is an American communications company based in San Francisco, California. The company operates the microblogging and social networking service Twitter.","pubDate":"Sep 22 2022","heroImage":"/images/twitter.png"};
+				const frontmatter$2 = {"layout":"../../layouts/BlogPost.astro","title":"Clone Twitter using React and Tailwind","description":"Twitter, Inc. is an American communications company based in San Francisco, California. The company operates the microblogging and social networking service Twitter.","pubDate":"Sep 22 2022","heroImage":"/images/twitter.png","author":"Irvan Moses"};
 				const file$2 = "D:/astroblog/src/pages/blog/clone-twitter-using-react-and-tailwind.md";
 				const url$2 = "/blog/clone-twitter-using-react-and-tailwind";
 				function rawContent$2() {
-					return "\n## About Twitter\n\nTwitter, Inc. is an American communications company based in San Francisco, California. The company operates the microblogging and social networking service Twitter. Twitter is the world's largest microblogging and social networking service.\n\nTwitter is a free service that allows users to post and share messages on Twitter. Twitter is a microblogging service that allows users to post and share messages on Twitter.\n";
+					return "\nTwitter, Inc. is an American communications company based in San Francisco, California. The company operates the microblogging and social networking service Twitter. It previously operated the Vine short video app and Periscope livestreaming service.\n\n&nbsp;\n\nTwitter was created by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams in March 2006 and launched in July of that year. By 2012, more than 100 million users posted 340 million tweets a day, and the service handled an average of 1.6 billion search queries per day. The company went public in November 2013. By the start of 2019, Twitter had more than 330 million monthly active users.\n\n&nbsp;\n\nOn April 25, 2022, the Twitter board of directors agreed to a $44 billion buyout by Elon Musk, the CEO of SpaceX and Tesla, potentially making it one of the biggest deals to turn a company private. On July 8, 2022, Musk terminated the deal. As a result, Twitter shares experienced a fall and the company hired a US law firm to take legal action against Musk, launching a lawsuit against him in the Chancery Court of Delaware on July 12.\n";
 				}
 				function compiledContent$2() {
 					return html$2;
 				}
 				function getHeadings$2() {
-					return [{"depth":2,"slug":"about-twitter","text":"About Twitter"}];
+					return [];
 				}
 				function getHeaders$2() {
 					console.warn('getHeaders() have been deprecated. Use getHeadings() function instead.');
@@ -1585,7 +1526,7 @@ const html$2 = "<h2 id=\"about-twitter\">About Twitter</h2>\n<p>Twitter, Inc. is
 				}
 				Content$2[Symbol.for('astro.needsHeadRendering')] = false;
 
-const _page3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+const _page2 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
   frontmatter: frontmatter$2,
   file: file$2,
@@ -1598,19 +1539,19 @@ const _page3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   default: Content$2
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const html$1 = "<h2 id=\"about-figma\">About Figma</h2>\n<p>Figma is a collaborative browser-based interface design tool, with additional offline features enabled by desktop applications for macOS and Windows. Figma is used to design interfaces for web and mobile apps.</p>";
+const html$1 = "<p>Figma is a collaborative browser-based interface design tool, with additional offline features enabled by desktop applications for macOS and Windows. Figma is used to design interfaces for web and mobile apps.</p>\n<p> </p>\n<p>Figma is a collaborative browser-based interface design tool, with additional offline features enabled by desktop applications for macOS and Windows. The Figma mobile app for Android and iOS allows viewing and interacting with Figma prototypes in real-time on mobile and tablet devices. The feature set of Figma focuses on user interface and user experience design, with an emphasis on real-time collaboration, utilising a variety of vector graphics editor and prototyping tools.</p>\n<p> </p>\n<p>In June 2013, Figma raised $3.8 million in seed funding. In December 2015, the company raised $14 million in Series A funding. In February 2018, Figma raised $25 million in a Series B round. In February 2019, Figma raised $40 million in Series C funding. In April 2020, Figma raised $50 million in a Series D funding round. In June 2021, Figma raised $200 million in a Series E funding round. Figma was valued at more than $2 billion by April 2020 and $10 billion by the end of May 2021.</p>";
 
-				const frontmatter$1 = {"layout":"../../layouts/BlogPost.astro","title":"Design System Tutorial with Figma","description":"Figma is a collaborative browser-based interface design tool, with additional offline features enabled by desktop applications for macOS and Windows.","pubDate":"Dec 30 2022","heroImage":"/images/figma.png"};
+				const frontmatter$1 = {"layout":"../../layouts/BlogPost.astro","title":"Design System Tutorial with Figma","description":"Figma is a collaborative browser-based interface design tool, with additional offline features enabled by desktop applications for macOS and Windows.","pubDate":"Dec 30 2022","heroImage":"/images/figma.png","author":"Irvan Moses"};
 				const file$1 = "D:/astroblog/src/pages/blog/design-system-tutorial-with-figma.md";
 				const url$1 = "/blog/design-system-tutorial-with-figma";
 				function rawContent$1() {
-					return "\n## About Figma\n\nFigma is a collaborative browser-based interface design tool, with additional offline features enabled by desktop applications for macOS and Windows. Figma is used to design interfaces for web and mobile apps.\n";
+					return "\nFigma is a collaborative browser-based interface design tool, with additional offline features enabled by desktop applications for macOS and Windows. Figma is used to design interfaces for web and mobile apps.\n\n&nbsp;\n\nFigma is a collaborative browser-based interface design tool, with additional offline features enabled by desktop applications for macOS and Windows. The Figma mobile app for Android and iOS allows viewing and interacting with Figma prototypes in real-time on mobile and tablet devices. The feature set of Figma focuses on user interface and user experience design, with an emphasis on real-time collaboration, utilising a variety of vector graphics editor and prototyping tools.\n\n&nbsp;\n\nIn June 2013, Figma raised $3.8 million in seed funding. In December 2015, the company raised $14 million in Series A funding. In February 2018, Figma raised $25 million in a Series B round. In February 2019, Figma raised $40 million in Series C funding. In April 2020, Figma raised $50 million in a Series D funding round. In June 2021, Figma raised $200 million in a Series E funding round. Figma was valued at more than $2 billion by April 2020 and $10 billion by the end of May 2021.\n";
 				}
 				function compiledContent$1() {
 					return html$1;
 				}
 				function getHeadings$1() {
-					return [{"depth":2,"slug":"about-figma","text":"About Figma"}];
+					return [];
 				}
 				function getHeaders$1() {
 					console.warn('getHeaders() have been deprecated. Use getHeadings() function instead.');
@@ -1648,7 +1589,7 @@ const html$1 = "<h2 id=\"about-figma\">About Figma</h2>\n<p>Figma is a collabora
 				}
 				Content$1[Symbol.for('astro.needsHeadRendering')] = false;
 
-const _page4 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+const _page3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
   frontmatter: frontmatter$1,
   file: file$1,
@@ -1661,13 +1602,13 @@ const _page4 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   default: Content$1
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const html = "<p>Uber Technologies, Inc. (Uber), formerly UberCab is an American mobility as a service provider, allowing users to book a car and driver to transport them in a way similar to a taxi. It is based in San Francisco with operations in approximately 72 countries and 10,500 cities in 2021. Its services include ride-hailing, food delivery (Uber Eats and Postmates), package delivery, couriers, freight transportation, electric bicycle and motorized scooter rental via a partnership with Lime, and Thames Clipper river bus transport in partnership with local operators. Uber does not own any vehicles, but receives a commission from each booking. Fares, which vary using a dynamic pricing model based on local supply and demand at the time of the booking, are quoted to the customer in advance.</p>\n<p>Uber offers many different types of ride options. UberX is the most popular and the standard service of the company. UberXL, Uber Comfort, and Uber Black are other options offered by the company. UberXL cars are usually SUV-sized vehicles that can accommodate 6 passengers. Uber’s premium service is Uber Black. Uber Black drivers have to be highly rated and drive more luxurious vehicles than UberX and UberXL. Uber Comfort guarantees a newer vehicle with more leg room.</p>";
+const html = "<p>Uber Technologies, Inc. (Uber), formerly UberCab is an American mobility as a service provider, allowing users to book a car and driver to transport them in a way similar to a taxi. It is based in San Francisco with operations in approximately 72 countries and 10,500 cities in 2021. Its services include ride-hailing, food delivery (Uber Eats and Postmates), package delivery, couriers, freight transportation, electric bicycle and motorized scooter rental via a partnership with Lime, and Thames Clipper river bus transport in partnership with local operators. Uber does not own any vehicles, but receives a commission from each booking. Fares, which vary using a dynamic pricing model based on local supply and demand at the time of the booking, are quoted to the customer in advance.</p>\n<p> </p>\n<p>Uber offers many different types of ride options. UberX is the most popular and the standard service of the company. UberXL, Uber Comfort, and Uber Black are other options offered by the company. UberXL cars are usually SUV-sized vehicles that can accommodate 6 passengers. Uber’s premium service is Uber Black. Uber Black drivers have to be highly rated and drive more luxurious vehicles than UberX and UberXL. Uber Comfort guarantees a newer vehicle with more leg room.</p>";
 
-				const frontmatter = {"layout":"../../layouts/BlogPost.astro","title":"Uber Design Full Course 12 Hours ASMR","description":"Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.","pubDate":"Jul 01 2022","heroImage":"/images/uber.png"};
+				const frontmatter = {"layout":"../../layouts/BlogPost.astro","title":"Uber Design Full Course 12 Hours ASMR","description":"Uber Technologies, Inc., formerly UberCab is an American mobility as a service provider, allowing users to book a car and driver to transport them in a way similar to a taxi.","pubDate":"Jul 01 2022","heroImage":"/images/uber.png","author":"Irvan Moses"};
 				const file = "D:/astroblog/src/pages/blog/uber-design-full-course-asmr.md";
 				const url = "/blog/uber-design-full-course-asmr";
 				function rawContent() {
-					return "\nUber Technologies, Inc. (Uber), formerly UberCab is an American mobility as a service provider, allowing users to book a car and driver to transport them in a way similar to a taxi. It is based in San Francisco with operations in approximately 72 countries and 10,500 cities in 2021. Its services include ride-hailing, food delivery (Uber Eats and Postmates), package delivery, couriers, freight transportation, electric bicycle and motorized scooter rental via a partnership with Lime, and Thames Clipper river bus transport in partnership with local operators. Uber does not own any vehicles, but receives a commission from each booking. Fares, which vary using a dynamic pricing model based on local supply and demand at the time of the booking, are quoted to the customer in advance.\n\nUber offers many different types of ride options. UberX is the most popular and the standard service of the company. UberXL, Uber Comfort, and Uber Black are other options offered by the company. UberXL cars are usually SUV-sized vehicles that can accommodate 6 passengers. Uber's premium service is Uber Black. Uber Black drivers have to be highly rated and drive more luxurious vehicles than UberX and UberXL. Uber Comfort guarantees a newer vehicle with more leg room.\n";
+					return "\nUber Technologies, Inc. (Uber), formerly UberCab is an American mobility as a service provider, allowing users to book a car and driver to transport them in a way similar to a taxi. It is based in San Francisco with operations in approximately 72 countries and 10,500 cities in 2021. Its services include ride-hailing, food delivery (Uber Eats and Postmates), package delivery, couriers, freight transportation, electric bicycle and motorized scooter rental via a partnership with Lime, and Thames Clipper river bus transport in partnership with local operators. Uber does not own any vehicles, but receives a commission from each booking. Fares, which vary using a dynamic pricing model based on local supply and demand at the time of the booking, are quoted to the customer in advance.\n\n&nbsp;\n\nUber offers many different types of ride options. UberX is the most popular and the standard service of the company. UberXL, Uber Comfort, and Uber Black are other options offered by the company. UberXL cars are usually SUV-sized vehicles that can accommodate 6 passengers. Uber's premium service is Uber Black. Uber Black drivers have to be highly rated and drive more luxurious vehicles than UberX and UberXL. Uber Comfort guarantees a newer vehicle with more leg room.\n";
 				}
 				function compiledContent() {
 					return html;
@@ -1711,7 +1652,7 @@ const html = "<p>Uber Technologies, Inc. (Uber), formerly UberCab is an American
 				}
 				Content[Symbol.for('astro.needsHeadRendering')] = false;
 
-const _page5 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+const _page4 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
   frontmatter,
   file,
@@ -1724,57 +1665,7 @@ const _page5 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   default: Content
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$metadata = createMetadata("/@fs/D:/astroblog/src/pages/blog.astro", { modules: [{ module: $$module1, specifier: "../components/BaseHead.astro", assert: {} }, { module: $$module2, specifier: "../components/Header.astro", assert: {} }, { module: $$module3, specifier: "../components/Footer.astro", assert: {} }, { module: $$module4, specifier: "../config", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-const $$Astro = createAstro("/@fs/D:/astroblog/src/pages/blog.astro", "https://example.com/", "file:///D:/astroblog/");
-const $$Blog = createComponent(async ($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
-  Astro2.self = $$Blog;
-  const posts = (await Astro2.glob(/* #__PURE__ */ Object.assign({"./blog/clone-twitter-using-react-and-tailwind.md": () => Promise.resolve().then(() => _page3),"./blog/design-system-tutorial-with-figma.md": () => Promise.resolve().then(() => _page4),"./blog/uber-design-full-course-asmr.md": () => Promise.resolve().then(() => _page5)}), () => "./blog/*.{md,mdx}")).sort(
-    (a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
-  );
-  const STYLES = [];
-  for (const STYLE of STYLES)
-    $$result.styles.add(STYLE);
-  return renderTemplate`<html lang="en-us" class="astro-BS4QT6UU">
-	<head>
-		${renderComponent($$result, "BaseHead", $$BaseHead, { "title": SITE_TITLE, "description": SITE_DESCRIPTION, "class": "astro-BS4QT6UU" })}
-		
-	${renderHead($$result)}</head>
-	<body class="astro-BS4QT6UU">
-		<main class="astro-BS4QT6UU">
-			<content class="astro-BS4QT6UU">
-				<ul class="astro-BS4QT6UU">
-					${posts.map((post) => renderTemplate`<li class="astro-BS4QT6UU">
-								<time${addAttribute(post.frontmatter.pubDate, "datetime")} class="astro-BS4QT6UU">
-									${new Date(
-    post.frontmatter.pubDate
-  ).toLocaleDateString("en-us", {
-    year: "numeric",
-    month: "short",
-    day: "numeric"
-  })}
-								</time>
-								<a${addAttribute(post.url, "href")} class="astro-BS4QT6UU">${post.frontmatter.title}</a>
-							</li>`)}
-				</ul>
-			</content>
-			${renderComponent($$result, "Footer", $$Footer, { "class": "astro-BS4QT6UU" })}
-		</main>
-	</body></html>`;
-});
-
-const $$file = "D:/astroblog/src/pages/blog.astro";
-const $$url = "/blog";
-
-const _page6 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
-  __proto__: null,
-  $$metadata,
-  default: $$Blog,
-  file: $$file,
-  url: $$url
-}, Symbol.toStringTag, { value: 'Module' }));
-
-const pageMap = new Map([['src/pages/index.astro', _page0],['src/pages/rss.xml.js', _page1],['src/pages/about.md', _page2],['src/pages/blog/clone-twitter-using-react-and-tailwind.md', _page3],['src/pages/blog/design-system-tutorial-with-figma.md', _page4],['src/pages/blog/uber-design-full-course-asmr.md', _page5],['src/pages/blog.astro', _page6],]);
+const pageMap = new Map([['src/pages/index.astro', _page0],['src/pages/rss.xml.js', _page1],['src/pages/blog/clone-twitter-using-react-and-tailwind.md', _page2],['src/pages/blog/design-system-tutorial-with-figma.md', _page3],['src/pages/blog/uber-design-full-course-asmr.md', _page4],]);
 const renderers = [Object.assign({"name":"astro:jsx","serverEntrypoint":"astro/jsx/server.js","jsxImportSource":"astro"}, { ssr: server_default }),];
 
 if (typeof process !== "undefined") {
@@ -1846,7 +1737,7 @@ function deserializeManifest(serializedManifest) {
   };
 }
 
-const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/netlify/functions","routes":[{"file":"","links":["assets/index.cfc6bef1.css","assets/94f8558e.4402e4f4.css","assets/66e5a00c.e00e6481.css"],"scripts":[],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/94f8558e.4402e4f4.css","assets/66e5a00c.e00e6481.css"],"scripts":[],"routeData":{"route":"/rss.xml","type":"endpoint","pattern":"^\\/rss\\.xml$","segments":[[{"content":"rss.xml","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/rss.xml.js","pathname":"/rss.xml","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/94f8558e.4402e4f4.css","assets/66e5a00c.e00e6481.css"],"scripts":[],"routeData":{"route":"/about","type":"page","pattern":"^\\/about\\/?$","segments":[[{"content":"about","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/about.md","pathname":"/about","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/94f8558e.4402e4f4.css","assets/66e5a00c.e00e6481.css"],"scripts":[],"routeData":{"route":"/blog/clone-twitter-using-react-and-tailwind","type":"page","pattern":"^\\/blog\\/clone-twitter-using-react-and-tailwind\\/?$","segments":[[{"content":"blog","dynamic":false,"spread":false}],[{"content":"clone-twitter-using-react-and-tailwind","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/blog/clone-twitter-using-react-and-tailwind.md","pathname":"/blog/clone-twitter-using-react-and-tailwind","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/94f8558e.4402e4f4.css","assets/66e5a00c.e00e6481.css"],"scripts":[],"routeData":{"route":"/blog/design-system-tutorial-with-figma","type":"page","pattern":"^\\/blog\\/design-system-tutorial-with-figma\\/?$","segments":[[{"content":"blog","dynamic":false,"spread":false}],[{"content":"design-system-tutorial-with-figma","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/blog/design-system-tutorial-with-figma.md","pathname":"/blog/design-system-tutorial-with-figma","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/94f8558e.4402e4f4.css","assets/66e5a00c.e00e6481.css"],"scripts":[],"routeData":{"route":"/blog/uber-design-full-course-asmr","type":"page","pattern":"^\\/blog\\/uber-design-full-course-asmr\\/?$","segments":[[{"content":"blog","dynamic":false,"spread":false}],[{"content":"uber-design-full-course-asmr","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/blog/uber-design-full-course-asmr.md","pathname":"/blog/uber-design-full-course-asmr","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/blog.7c2724a9.css","assets/94f8558e.4402e4f4.css","assets/66e5a00c.e00e6481.css"],"scripts":[],"routeData":{"route":"/blog","type":"page","pattern":"^\\/blog\\/?$","segments":[[{"content":"blog","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/blog.astro","pathname":"/blog","_meta":{"trailingSlash":"ignore"}}}],"site":"https://example.com/","base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"isAstroFlavoredMd":false},"pageMap":null,"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"entry.mjs","astro:scripts/before-hydration.js":"data:text/javascript;charset=utf-8,//[no before-hydration script]"},"assets":["/assets/66e5a00c.e00e6481.css","/assets/94f8558e.4402e4f4.css","/assets/blog.7c2724a9.css","/assets/index.cfc6bef1.css","/favicon.svg","/placeholder-about.jpg","/placeholder-hero.jpg","/placeholder-social.jpg","/images/figma.png","/images/profil.png","/images/twitter.png","/images/uber.png"]}), {
+const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/netlify/functions","routes":[{"file":"","links":["assets/index.98b2b614.css","assets/f812a953.f4671896.css","assets/d0ddac0f.ef304978.css"],"scripts":[],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/f812a953.f4671896.css","assets/d0ddac0f.ef304978.css"],"scripts":[],"routeData":{"route":"/rss.xml","type":"endpoint","pattern":"^\\/rss\\.xml$","segments":[[{"content":"rss.xml","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/rss.xml.js","pathname":"/rss.xml","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/f812a953.f4671896.css","assets/d0ddac0f.ef304978.css"],"scripts":[],"routeData":{"route":"/blog/clone-twitter-using-react-and-tailwind","type":"page","pattern":"^\\/blog\\/clone-twitter-using-react-and-tailwind\\/?$","segments":[[{"content":"blog","dynamic":false,"spread":false}],[{"content":"clone-twitter-using-react-and-tailwind","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/blog/clone-twitter-using-react-and-tailwind.md","pathname":"/blog/clone-twitter-using-react-and-tailwind","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/f812a953.f4671896.css","assets/d0ddac0f.ef304978.css"],"scripts":[],"routeData":{"route":"/blog/design-system-tutorial-with-figma","type":"page","pattern":"^\\/blog\\/design-system-tutorial-with-figma\\/?$","segments":[[{"content":"blog","dynamic":false,"spread":false}],[{"content":"design-system-tutorial-with-figma","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/blog/design-system-tutorial-with-figma.md","pathname":"/blog/design-system-tutorial-with-figma","_meta":{"trailingSlash":"ignore"}}},{"file":"","links":["assets/f812a953.f4671896.css","assets/d0ddac0f.ef304978.css"],"scripts":[],"routeData":{"route":"/blog/uber-design-full-course-asmr","type":"page","pattern":"^\\/blog\\/uber-design-full-course-asmr\\/?$","segments":[[{"content":"blog","dynamic":false,"spread":false}],[{"content":"uber-design-full-course-asmr","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/blog/uber-design-full-course-asmr.md","pathname":"/blog/uber-design-full-course-asmr","_meta":{"trailingSlash":"ignore"}}}],"site":"https://example.com/","base":"/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"isAstroFlavoredMd":false},"pageMap":null,"renderers":[],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"entry.mjs","astro:scripts/before-hydration.js":"data:text/javascript;charset=utf-8,//[no before-hydration script]"},"assets":["/assets/d0ddac0f.ef304978.css","/assets/f812a953.f4671896.css","/assets/index.98b2b614.css","/favicon.svg","/placeholder-about.jpg","/placeholder-hero.jpg","/placeholder-social.jpg","/images/figma.png","/images/profil.png","/images/twitter.png","/images/uber.png"]}), {
 	pageMap: pageMap,
 	renderers: renderers
 });
