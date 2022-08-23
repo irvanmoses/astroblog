@@ -1,0 +1,201 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+
+// Use Astro.glob() to fetch all posts, and then sort them by date.
+const posts = (await Astro.glob("../pages/blog/*.{md,mdx}")).sort(
+    (a, b) =>
+        new Date(b.frontmatter.pubDate).valueOf() -
+        new Date(a.frontmatter.pubDate).valueOf()
+);
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+        <style>
+            main {
+                padding: 0 25rem;
+            }
+
+            ul {
+                margin-top: 3rem;
+                list-style-type: none;
+                padding: unset;
+            }
+            ul li {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 2rem;
+            }
+            ul li time {
+                flex: 0 0 130px;
+                font-style: italic;
+                color: #888;
+            }
+
+            ul li a {
+                text-decoration: none;
+                color: #fafafa;
+            }
+
+            ul li a:hover {
+                opacity: 0.95;
+            }
+
+            .box__gradient {
+                padding: 0.1rem;
+                position: relative;
+                transition: all 0.3s ease-in-out;
+                border-radius: 4px;
+            }
+
+            .box__gradient::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                border-radius: 6px;
+            }
+
+            .box__gradient:hover::before {
+                background: linear-gradient(
+                    -45deg,
+                    #ee7752,
+                    #e73c53,
+                    #1abffb,
+                    #16e6ca
+                );
+                background-size: 400% 400%;
+                transition: all 1s ease;
+                animation: gradient 3s ease infinite, fadeIn 0.6s ease;
+            }
+
+            .box__gradient:hover .box {
+                border: 1px solid #171717;
+            }
+
+            .box {
+                /* padding: 1rem; */
+                display: flex;
+                align-items: center;
+                background-color: #171717;
+                border: 1px solid #303030;
+                transition: all 0.4s ease-in-out;
+                border-radius: 4px;
+                gap: 1.5rem;
+            }
+
+            .box img {
+                width: 20rem;
+                height: 12rem;
+                transition: all 0.4s ease-in-out;
+                object-fit: cover;
+                border-radius: 4px 0 0 4px;
+            }
+
+            .title {
+                display: flex;
+                flex-direction: column;
+                gap: 1.2rem;
+            }
+
+            @media only screen and (max-width: 1440px) {
+                main {
+                    padding: 0 10rem;
+                }
+            }
+
+            @media only screen and (max-width: 1024px) {
+                main {
+                    padding: 0 5rem;
+                }
+            }
+
+            @media only screen and (max-width: 768px) {
+                main {
+                    padding: 0 1.2rem;
+                }
+
+                .box {
+                    padding: 1rem;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    gap: 1rem;
+                }
+
+                .box img {
+                    width: 100%;
+                }
+            }
+
+            @keyframes gradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <content>
+                <ul>
+                    {
+                        posts.map((post) => (
+                            <li>
+                                <a href={post.url}>
+                                    <div class="box__gradient">
+                                        <div class="box">
+                                            <img
+                                                src={post.frontmatter.heroImage}
+                                                alt={post.frontmatter.title}
+                                            />
+
+                                            <div class="title">
+                                                <h2>
+                                                    {post.frontmatter.title}
+                                                </h2>
+                                                <p>
+                                                    {
+                                                        post.frontmatter
+                                                            .description
+                                                    }
+                                                </p>
+                                                <p>
+                                                    {post.frontmatter.pubDate}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </content>
+        </main>
+    </body>
+</html>
